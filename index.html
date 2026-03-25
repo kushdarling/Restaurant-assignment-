@@ -1,123 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delicious Bites</title>
-</head>
-<body>
-    <style>
-        body {background-color: lightpink;}
-    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
     <!-- Main heading -->
     <h1>DELICIOUS BITES</h1>
-    <h2>Welcome to Delicious Bites</h2>
+    <h2>Welcome to Delicious Bites Restaurant</h2>
+
+
     <!-- restuarant intro -->
-    <p>Welcome to Delicious Bites, where the bold flavors of India shine in every dish.<br> Inspired by the rich food culture of Mumbai and New Delhi, we serve authentic curries, sizzling tandoori, <br> biryani, and freshly baked naan—bringing you a true taste of India in every bite.</p>
-    <p>We are located at T&N Plaza in Najjera and open Monday to Sunday</p>
-    <ul>
-        <li>MONDAY 10AM-7PM</li>
-        <li>TUESDAY 8AM-10PM</li>
-        <li>WEDNESDAY 8AM-10PM</li>
-        <li>THURSDAY 8AM-10PM</li>
-        <li>FRIDAY 8AM-10PM</li>
-        <li>SATURDAY 8AM-10PM</li>
-        <li>SUNDAY MIDDAY-8PM</li>
-    </ul>
+    <div class="gridcontainer">
+        <div class="grid1">
+            <h3>ABOUT US</h3>
+            <p>welcome to Delicious Bites, where the bold flavors of india shine in every dish.<br> Inspired by
+            the rich food culture of Mumbai and new Dheli, we bring you the true taste of india in every bite</p>
+        </div>
+        <div class="grid2">
+            <h3>OPENING HOURS</h3>
+            <p> WEEKDAYS: 9AM - 10AM</p>
+            <P>WEEKENDS: 10AM - 11PM</P>
+            <p> Find us at T&N plaza Najjera near stabex opposite flamingo appartments</p>
 
-    <hr>
-<!-- menue details listed-->
+        </div>
+
+    </div>
+    
+
+    
+    <!-- menue details listed-->
     <h3>OUR MENU</h3>
-    <h4>The drinks include;</h4>
-    <Ul>
-        <li>Mango Lasi</li>
-        <li>Masala chai</li>
-        <li>Sweet Lassi</li>
-        <li>Salted Lassi</li>
-        <li>Thandai</li>
-    </Ul>
-    <h4>The meals ranked by popularity include;</h4>
+
+    <di class="menupics">
+        <div>
+            <img src="chickencurry.JPG" alt="currypic">
+            <p>CHICKEN CURRY</p>
+        </div>
+        <div>
+            <img src="mango lasi.jpg" alt="mangolassi">
+            <p>MANGO LASSI</p>
+        </div>
+        <div>
+            <img src="samosa.JPG" alt="">
+            <p>SAMOSA</p>
+        </div>
+
+    </di>
+
+
+    <div class="menu-items">
+        <div class="drinks">
+         <h4>The drinks include;</h4>
+    <ul>
+      <li>Mango Lasi</li>
+      <li>Masala chai</li>
+      <li>Sweet Lassi</li>
+      <li>Salted Lassi</li>
+      <li>Thandai</li>
+    </ul>   
+        </div>
+
+        <div class="dishes">
+        <h4>The meals ranked by popularity include;</h4>
     <ol>
-        <li>Butter chicken</li>
-        <li>Biryani</li>
-        <li>Tandori chicken</li>
-        <li>Palak Paneer</li>
-        <li>Samosa</li>
-    </ol>
+      <li>Butter chicken</li>
+      <li>Biryani</li>
+      <li>Tandori chicken</li>
+      <li>Palak Paneer</li>
+      <li>Samosa</li>
+    </ol>     
+        </div>
+    </div>
+    
+
     <!-- menu in table form -->
-    <table border="1">
-        <tr>
-            <th>FOOD ITEM</th>
-            <th>PRICE</th>
-            <th>AVAILABILITY</th>
-        </tr>
-        <tr>
-            <td>Butter chicken</td>
-            <td>25,000UGX</td>
-            <td>AVAILABLE</td>
-        </tr>
-        <tr>
-            <td>Biryani</td>
-            <td>20,000</td>
-            <td>AVAILABLE</td>
-        </tr>
-        <tr>
-            <td>Samosa</td>
-            <td>5,000</td>
-            <td>OUT OF STOCK</td>
-        </tr>
-        <tr>
-            <td>Tandori chicken</td>
-            <td>30,000</td>
-            <td>AVAILABLE</td>
-        </tr>
 
+<div class="table">
+   <table border="1">
+      <tr>
+        <th>FOOD ITEM</th>
+        <th>PRICE</th>
+        <th>AVAILABILITY</th>
+      </tr>
+      <tr>
+        <td>Butter chicken</td>
+        <td>25,000UGX</td>
+        <td>AVAILABLE</td>
+      </tr>
+      <tr>
+        <td>Biryani</td>
+        <td>20,000</td>
+        <td>AVAILABLE</td>
+      </tr>
+      <tr>
+        <td>Samosa</td>
+        <td>5,000</td>
+        <td>OUT OF STOCK</td>
+      </tr>
+      <tr>
+        <td>Tandori chicken</td>
+        <td>30,000</td>
+        <td>AVAILABLE</td>
+      </tr>
+    </table> 
+    </div>
 
-    </table>
+   
+      
 
-
-
-
-<!-- button -->
-
-<button>ORDER NOW</button>
-
-
-<!-- indian food image -->
-
-    <img src="IMG_3938.JPG" alt="FOOD IMAGE" width="200">
+    <!-- button -->
+<div class="orderbtn">
+    <button>ORDER NOW</button>
+</div>
+    
 
 
 
 
-    <hr>
-<!-- link to the instagram page -->
-    <h4>Visit out Instagram page</h4> 
-    <a href="https://www.instagram.com/celeste_beaute?igsh=bnJxNGk3NW8wOW83&utm_source=qr" target=" _blank" >tap to view</a>
+    
+    
+
+      
     <!--form  -->
-    <h4>GET IN TOUCH WITH US </h4>
+    <h4>MAKE YOUR ORDER</h4>
     <form>
-        <lebel for=" name"> Name:</lebel><br>
-        <input type=" text" id="Name" placeholder="Enter your full name"><br><br>
+      <lebel for=" name"> Name:</lebel><br />
+      <input
+        type=" text"
+        id="Name"
+        placeholder="Enter your full name"
+      /><br /><br />
 
-        <lebel for="email">Email:</lebel><br>
-        <input type="email" id="email" placeholder="Enter your email address"><br><br>
+      <lebel for="email">Email:</lebel><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email address"
+      /><br /><br />
 
-        <label for="phone"> Phone number</label><br>
-        <input type="tel" id="phone" placeholder="Enter you phone number"><br><br>
+      <label for="phone"> Phone number</label><br />
+      <input
+        type="tel"
+        id="phone"
+        placeholder="Enter you phone number"
+      /><br /><br />
 
-        <lebel for="order"> Order selection:</lebel><br>
-        <select id="order">
-            <option>Butter chicken</option>
-            <option>Biryani</option>
-            <option>Samosa</option>
-            <option>Tandori chicken</option>
-        </select><br><br>
-        <label for="message">message</label>
-        <textarea id="Message" placeholder="Write you special instructions here"></textarea>
+      <lebel for="order"> Order selection:</lebel><br />
+      <select id="order">
+        <option>Butter chicken</option>
+        <option>Biryani</option>
+        <option>Samosa</option>
+        <option>Tandori chicken</option></select
+      ><br /><br />
+      <label for="message">message</label>
+      <textarea
+        id="Message"
+        placeholder="Write you special instructions here"
+      ></textarea>
 
-        <button type="submit">Submit Order</button>
+      <button type="submit">Submit Order</button>
     </form>
+ <footer>
+    <a href="https://www.instagram.com/celeste_beaute?igsh=bnJxNGk3NW8wOW83&utm_source=qr">CHECK OUT YOUR FAVORITE MEAL</a>
+ </footer>
 
-</body>
+  </body>
 </html>

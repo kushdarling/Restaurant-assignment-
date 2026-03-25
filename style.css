@@ -1,0 +1,89 @@
+body{
+    background-color: #201415;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+h1{
+   background-image: url(IMG_4484.JPG); 
+   background-size: cover;
+   background-position: center;
+   color: white;
+   text-align: right;
+   padding: 50px;
+   border-radius: 30px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.gridcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.grid1{
+    background-color: #5b3f35;
+    border-radius: 20px;
+    width: 100%
+
+}
+.grid2{
+    background-color: #5b3f35;
+    border-radius: 20px;
+    width: 100%
+
+}
+
+h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.menu-items{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 50px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: none;
+    height: 1px;
+    margin-top: 20px;
+    color: #fff;
+}
+p{
+    padding-left: 10px;
+}
+.menupics{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 30px;
+    overflow: hidden;
+}
+.menupics img{
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+
+}
+.orderbtn{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 30px;
+}
+a{
+    color: #fff;
+    align-content: center;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+}
